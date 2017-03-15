@@ -29,6 +29,7 @@ When the user searches by keyword, relevant manifests and corresponding SNC ("sc
 1. Replicate research project from Manifest
 
 ## Steps of Execution (Requirements)
+**Not Yet A Good Example**
 1. "Date Uploaded" will be differentiating factors for multiple sets of SNC files for the same data set.
 1. Buttons for "Open in Jupyter" and "Download" for each dataset and SNC file.
 1. Sorting options (by date, by relevance).
