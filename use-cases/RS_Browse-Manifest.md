@@ -16,7 +16,7 @@ When the user searches by keyword, relevant manifests and corresponding SNC ("sc
 1. User has searched for manifests.
 
 ## Main Success Scenario
-All datasets whose manifests contained searched keywords and corresponding SNC files are displayed with options to view and test files.
+1. All datasets whose manifests contained searched keywords and corresponding SNC files are displayed with options to view and test files. If there are multiple pages of results, there is pagination.
 
 ## Alternate Success Scenarios 
 1. User identifies a set of similar research projects and maintains a list for future inquiry
@@ -25,16 +25,17 @@ All datasets whose manifests contained searched keywords and corresponding SNC f
 ## Failed End Condition
 1. No manifests were found and thus none are displayed.
 
-
 ## Extensions
 1. Replicate research project from Manifest
 
 ## Steps of Execution (Requirements)
 1. "Date Uploaded" will be differentiating factors for multiple sets of SNC files for the same data set.
-1. Buttons for "Open in Jupyter" and "Download" for each dataset and SNC files.
-2. Possible have sorting options (by date, by relevance).
+1. Buttons for "Open in Jupyter" and "Download" for each dataset and SNC file.
+1. Sorting options (by date, by relevance).
 
 ## Dependent Use Cases
 1. Search Manifest
 
 ## A use case diagram, following the UML Standard for expressing use cases.
+
+![alt text](./images/browse_diagram.png)
